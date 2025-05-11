@@ -21,6 +21,8 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 vim.g.lazyvim_check_order = false
+vim.g.snacks_animate = false
+vim.g.autoformat = true
 vim.opt.number = true
 vim.opt.ts = 4
 vim.opt.et = true

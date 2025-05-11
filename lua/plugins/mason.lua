@@ -7,7 +7,13 @@ return {
 		config = function()
 			require("mason").setup({})
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "intelephense" },
+				ensure_installed = { 
+                    "lua_ls", 
+                    "intelephense", 
+                    "tailwindcss-language-server", 
+                    "eslint-lsp", 
+                    "prettier" 
+                },
 			})
 		end,
 	},
