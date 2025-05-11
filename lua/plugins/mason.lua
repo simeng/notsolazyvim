@@ -10,9 +10,8 @@ return {
 				ensure_installed = { 
                     "lua_ls", 
                     "intelephense", 
-                    "tailwindcss-language-server", 
-                    "eslint-lsp", 
-                    "prettier" 
+                    "tailwindcss", 
+                    "eslint"
                 },
 			})
 		end,
